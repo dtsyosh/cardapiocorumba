@@ -177,6 +177,10 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        //Shopping Cart Provider
+        Gloudemans\Shoppingcart\ShoppingcartServiceProvider::class,
+
+
     ],
 
     /*
@@ -225,6 +229,9 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+
+        // Shopping Card alias
+        'Cart' => Gloudemans\Shoppingcart\Facades\Cart::class,
 
     ],
 
